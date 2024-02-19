@@ -1,0 +1,19 @@
+{
+  "name": "e-com-backend",
+  "version": "1.0.0",
+  "description": "AS A manager at an internet retail company\r I WANT a back end for my e-commerce website that uses the latest technologies\r SO THAT my company can compete with other e-commerce companies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1",
+    "sequelize": "^6.37.1"
+  }
+}
